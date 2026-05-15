@@ -1,99 +1,64 @@
 # 🎮 100 Gamer Projects
 
-A collection of 100 projects for gamers who want to build the things they play with. Servers, bots, mods, dashboards, content tools, AI scripts, and more — all free, all open source, all yours to modify.
+The ultimate collection of gaming projects — server setup, mods, bots, dashboards, networking, content creation, and more. Whether you're 12 or 30, a casual player or a hardcore admin, there's something here for you.
 
 ---
 
-## 📦 What's Inside
+## 🗂️ Categories
 
-| Category | Projects | What You'll Build |
-|----------|----------|------------------|
-| 🖥️ Game Servers | 01–15 | Minecraft, Valheim, CS2, Rust, ARK, Palworld and more |
-| 🔧 Server Admin | 16–25 | Auto-backup, crash watchdog, remote console, performance monitor |
-| 🗺️ Mods & Scripts | 26–35 | Minecraft plugins, Roblox Lua, Terraria mods, loot tables |
-| 🤖 Bots & Automation | 36–45 | Discord bots, Twitch alerts, auto-announcements, moderation |
-| 📊 Stats & Dashboards | 46–55 | Leaderboards, playtime tracker, K/D ratios, live dashboards |
-| 🌐 Networking | 56–65 | Port forwarding, VPN setup, ping tracker, LAN party scripts |
-| 🎨 Content Creation | 66–75 | Stream overlays, thumbnails, scoreboard graphics, clip organiser |
-| 🧠 Game AI & Scripting | 76–85 | Pathfinding, procedural maps, NPC dialogue, combat simulator |
-| 🏆 Community Tools | 86–95 | Clan website, tournament brackets, voting system, achievements |
-| 🚀 Advanced & Cloud | 96–100 | Docker servers, cloud deploy, auto-scaling, CI/CD pipeline |
+| # | Category | Projects |
+|---|----------|---------|
+| 1 | 🖥️ Game Servers | 01–15 |
+| 2 | 🔧 Server Admin | 16–25 |
+| 3 | 🗺️ Mods & Scripts | 26–35 |
+| 4 | 🤖 Bots & Automation | 36–45 |
+| 5 | 📊 Stats & Dashboards | 46–55 |
+| 6 | 🌐 Networking | 56–65 |
+| 7 | 🎨 Content Creation | 66–75 |
+| 8 | 🧠 Game AI & Scripting | 76–85 |
+| 9 | 🏆 Community Tools | 86–95 |
+| 10 | 🚀 Advanced & Cloud | 96–100 |
 
 ---
 
-## 🚀 How to Use This Collection
+## ⭐ Difficulty Levels
 
-**Option 1 — Download the zip**
-Click the green Code button, then Download ZIP. Unzip it anywhere on your machine.
-
-**Option 2 — Clone with Git**
-```bash
-git clone https://github.com/etrlogix-ship-it/schooldayz.git
-```
-
-**Then pick a project and run it:**
-```bash
-cd 01_minecraft_java_server/code
-python3 minecraft_server.py
-```
-
-Each project folder has its own README with full setup instructions, required ports, and dependencies.
+| Symbol | Level | Description |
+|--------|-------|-------------|
+| ⭐ | Beginner | Copy, paste, run. Minimal setup. |
+| ⭐⭐ | Intermediate | Some configuration, basic scripting |
+| ⭐⭐⭐ | Advanced | Networking, coding, server management |
 
 ---
 
 ## 🛠️ What You'll Need
 
 - A PC, Mac, or Linux machine (most projects work on all three)
-- Python 3 for scripting and automation projects
+- Python 3 for scripting projects
 - Java for Minecraft server projects
-- Docker for the advanced cloud projects (free to install)
-- Free accounts on Discord, GitHub, or other platforms where needed
-
-Most projects install their own libraries with a simple `pip install` command — each README explains exactly what to run.
+- A free account on Discord, GitHub, or other platforms where needed
+- Most projects have a **demo/simulation mode** so you can try them without paid services
 
 ---
 
-## ⭐ Difficulty Guide
+## 🚀 Where to Start
 
-| Symbol | Level | What It Means |
-|--------|-------|---------------|
-| ⭐ | Beginner | Copy, paste, run. No configuration needed. |
-| ⭐⭐ | Intermediate | Some setup, basic scripting, reading docs |
-| ⭐⭐⭐ | Advanced | Networking, server management, real code |
-
----
-
-## 🎯 Where to Start
-
-**Never run a server before?** Start with project 01 — Minecraft Java Server. It walks you through everything including Java setup, EULA, and connecting.
-
-**Want to automate your Discord?** Jump to project 36 — Discord Welcome Bot. It works in demo mode even without a bot token.
-
-**Into stats and data?** Try project 46 — Player Leaderboard. It spins up a live web page showing your top players.
-
-**Want to go deep?** Head to project 96 — Dockerised Game Server, or project 100 — Ultimate Game Hub.
+- **Never run a server before?** Start with project 01 — Minecraft Java Server
+- **Want to automate your Discord?** Jump to project 36 — Discord Welcome Bot
+- **Into stats and data?** Try project 46 — Player Leaderboard
+- **Want to go pro?** Head to project 96 — Dockerised Game Server
 
 ---
 
 ## ⚠️ Important Notes
 
-**Security first:**
-- Never share your Discord bot token — treat it like a password
-- Keep server software updated — outdated servers are the most common attack vector
-- Read project 56 carefully before port forwarding — it explains what you're opening and how to do it safely
-
-**Before running any server:**
-- Back up your world files first (project 17 automates this)
-- Set up auto-restart in case of crashes (project 19)
-- Monitor performance so you know when the server is struggling (project 16)
-
-**Demo mode:**
-Every project includes a demo mode so you can see how it works before buying server time or setting up external accounts. Just run the script and it simulates the real thing.
+- Always keep server software updated to patch security vulnerabilities
+- Never share your server's IP publicly unless you want randos joining
+- Back up your world/save files regularly (project 17 automates this!)
+- Port forwarding opens your router to the internet — read project 57 carefully before doing it
 
 ---
 
 ## 📄 Licence
 
-Free to use, share, and modify. Made by BANKX. Built for gamers who love building things. 🎮
-
-If you build something cool with these projects, share it!
+Free to use, share, and modify. Made by Sanford Banks. Built for gamers who love building things. 🎮
